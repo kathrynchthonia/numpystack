@@ -94,6 +94,45 @@ np.linalg.eig(cov)
 
 
 
+b= np.array([1,2])
+A
+
+x = np.linalg.inv(A).dot(b)
+
+x
+
+x = np.linalg.solve(A,b)
+
+x
+
+#Word Problem
+A= np.array([[1,1],[1.5,4]])
+b= np.array([2200, 5050])
+
+np.linalg.solve(A,b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
