@@ -24,3 +24,25 @@ y_line = 2*x_line +1
 plt.plot(x_line, y_line)
 
 plt.show()
+
+plt.hist(x)
+
+plt.show()
+
+R = np.random.random(10000)
+
+plt.hist(R)
+
+plt.show()
+
+plt.hist(R, bins=20)
+
+plt.show()
+
+y_actual = 2*x + 1
+
+residuals = y - y_actual
+
+plt.hist(residuals)
+
+plt.show()
